@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T01:16:36Z" name="Surefire suite" finished-at="2024-10-18T01:16:43Z" duration-ms="6330">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T01:16:36Z" name="Surefire test" finished-at="2024-10-18T01:16:43Z" duration-ms="6330">
+      <class name="com.djapp.tests.LoginDJTest">
+        <test-method signature="validateSuccessLoginDJApp()[pri:0, instance:com.djapp.tests.LoginDJTest@4e70a728]" started-at="2024-10-17T19:16:36Z" name="validateSuccessLoginDJApp" finished-at="2024-10-17T19:16:43Z" duration-ms="6287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessLoginDJApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.djapp.tests.LoginDJTest@4e70a728]" started-at="2024-10-17T19:16:43Z" name="closeApp" finished-at="2024-10-17T19:16:43Z" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.djapp.tests.LoginDJTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

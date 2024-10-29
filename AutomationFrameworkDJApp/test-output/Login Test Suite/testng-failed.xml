@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Test Suite]">
+  <test name="WelcomeTest(failed)" preserve-order="true">
+    <classes>
+      <class name="com.djapp.tests.WelcomePageTest">
+        <methods>
+          <include name="validateFindJobButtonDJApp"/>
+        </methods>
+      </class> <!-- com.djapp.tests.WelcomePageTest -->
+    </classes>
+  </test> <!-- WelcomeTest(failed) -->
+</suite> <!-- Failed suite [Login Test Suite] -->
