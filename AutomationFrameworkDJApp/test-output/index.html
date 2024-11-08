@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\HOME\AppData\Local\Temp\testng-eclipse-1487054898\testng-customsuite.xml</span>
+                    <span>C:\Users\DELL 01\AppData\Local\Temp\testng-eclipse-1742194499\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.djapp.tests.WelcomePageTest" class="method navigator-link" hash-for-method="validateJobSearch">validateJobSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.djapp.tests.LoginDJTest" class="method navigator-link" hash-for-method="validateSuccessLoginDJApp">validateSuccessLoginDJApp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +119,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.djapp.tests.WelcomePageTest</span>
+              <span class="class-name">com.djapp.tests.LoginDJTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateJobSearch">
-                  </a> <!-- validateJobSearch -->
-                  <span class="method-name">validateJobSearch</span>
+                  <a name="validateSuccessLoginDJApp">
+                  </a> <!-- validateSuccessLoginDJApp -->
+                  <span class="method-name">validateSuccessLoginDJApp</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +134,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HOME\AppData\Local\Temp\testng-eclipse-1487054898\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\DELL 01\AppData\Local\Temp\testng-eclipse-1742194499\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +143,11 @@
 &lt;suite parallel=&quot;none&quot; name=&quot;Default suite&quot;&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot; preserve-order=&quot;true&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.djapp.tests.WelcomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.djapp.tests.LoginDJTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validateSuccessLoginDJApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.djapp.tests.LoginDJTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateJobSearch')
-data.setCell(0, 2, 'com.djapp.tests.WelcomePageTest')
-data.setCell(0, 3, 16556);
+data.setCell(0, 1, 'validateSuccessLoginDJApp')
+data.setCell(0, 2, 'com.djapp.tests.LoginDJTest')
+data.setCell(0, 3, 9651);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -207,9 +211,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.djapp.tests.LoginDJTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateEmptyCredencialsDJApp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -218,9 +229,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.djapp.tests.WelcomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.djapp.tests.LoginDJTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateJobSearch</span>
+                <span class="method-name">validateSuccessLoginDJApp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
