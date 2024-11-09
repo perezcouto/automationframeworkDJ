@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-08T05:23:45Z" name="Default suite" finished-at="2024-11-08T05:23:55Z" duration-ms="9707">
+  <suite started-at="2024-11-09T00:15:20Z" name="Default suite" finished-at="2024-11-09T00:15:36Z" duration-ms="15417">
     <groups>
     </groups>
-    <test started-at="2024-11-08T05:23:45Z" name="Default test" finished-at="2024-11-08T05:23:55Z" duration-ms="9707">
-      <class name="com.djapp.tests.LoginDJTest">
-        <test-method signature="validateSuccessLoginDJApp()[pri:0, instance:com.djapp.tests.LoginDJTest@13e344d]" started-at="2024-11-07T23:23:45Z" name="validateSuccessLoginDJApp" finished-at="2024-11-07T23:23:55Z" duration-ms="9651" status="PASS">
+    <test started-at="2024-11-09T00:15:20Z" name="Default test" finished-at="2024-11-09T00:15:36Z" duration-ms="15417">
+      <class name="com.djapp.tests.WelcomePageTest">
+        <test-method signature="validateJobSearch()[pri:0, instance:com.djapp.tests.WelcomePageTest@45099dd3]" started-at="2024-11-08T18:15:20Z" name="validateJobSearch" finished-at="2024-11-08T18:15:36Z" duration-ms="15372" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSuccessLoginDJApp -->
-      </class> <!-- com.djapp.tests.LoginDJTest -->
+        </test-method> <!-- validateJobSearch -->
+      </class> <!-- com.djapp.tests.WelcomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
