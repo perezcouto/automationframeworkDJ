@@ -2,15 +2,15 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-09T00:15:20Z" name="Default suite" finished-at="2024-11-09T00:15:36Z" duration-ms="15417">
+  <suite started-at="2024-11-15T05:54:19Z" name="Default suite" finished-at="2024-11-15T05:54:37Z" duration-ms="17834">
     <groups>
     </groups>
-    <test started-at="2024-11-09T00:15:20Z" name="Default test" finished-at="2024-11-09T00:15:36Z" duration-ms="15417">
+    <test started-at="2024-11-15T05:54:19Z" name="Default test" finished-at="2024-11-15T05:54:37Z" duration-ms="17834">
       <class name="com.djapp.tests.WelcomePageTest">
-        <test-method signature="validateJobSearch()[pri:0, instance:com.djapp.tests.WelcomePageTest@45099dd3]" started-at="2024-11-08T18:15:20Z" name="validateJobSearch" finished-at="2024-11-08T18:15:36Z" duration-ms="15372" status="PASS">
+        <test-method signature="validateSavedJobs()[pri:0, instance:com.djapp.tests.WelcomePageTest@d86a6f]" started-at="2024-11-14T23:54:19Z" name="validateSavedJobs" finished-at="2024-11-14T23:54:37Z" duration-ms="17765" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateJobSearch -->
+        </test-method> <!-- validateSavedJobs -->
       </class> <!-- com.djapp.tests.WelcomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -34,4 +34,6 @@ public class WelcomePage extends BaseConfiguration {
 		waitElement(jobSearch);
 		click(jobSearch);
 	}
+	
+	
 }
